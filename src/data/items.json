@@ -3,30 +3,30 @@
     "id": 1,
     "name": "Doll",
     "price": 29.99,
-    "imgUrl": "/public/images/doll.jpeg"
+    "imgUrl": "images/doll.jpeg"
   },
   {
     "id": 2,
     "name": "Computer",
     "price": 54.22,
-    "imgUrl": "/public/images/computer.jpeg"
+    "imgUrl": "/images/computer.jpeg"
   },
   {
     "id": 3,
     "name": "Truck",
     "price": 15.4,
-    "imgUrl": "/public/images/truck.jpeg"
+    "imgUrl": "/images/truck.jpeg"
   },
   {
     "id": 4,
     "name": "Teddy Bear",
     "price": 90,
-    "imgUrl": "/public/images/teddy.jpeg"
+    "imgUrl": "/images/teddy.jpeg"
   },
   {
     "id": 5,
     "name": "Robot",
     "price": 61.5,
-    "imgUrl": "/public/images/robot.jpeg"
+    "imgUrl": "/images/robot.jpeg"
   }
 ]

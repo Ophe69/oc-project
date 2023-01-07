@@ -1,0 +1,37 @@
+*{
+  
+}
+.header-wraper{
+  position: relative;
+  /*background: url(/public/images/bureau.jpg) no-repeat;*/
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.main-info h1{
+  color: orange;
+  
+}
+
+.profile-pic{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height:34rem;
+  border-radius: 50px
+
+}
+
+.project-sumup{
+  width: 40vw;
+}

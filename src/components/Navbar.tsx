@@ -1,23 +1,24 @@
 import { Navbar as NavbarBs, Container, Nav, Button } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import { useShoppingCart } from "../context/ShoppingCartContext"
+import "../style.css"
 
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
   return (
-    <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
+    <NavbarBs sticky="top" className="bg-dark shadow-sm mb-3">
       <Container>
         <Nav className="me-auto">
           {" "}
           {/* me push what we have on the right to the extreme right */}
-          <Nav.Link to={"/"} as={NavLink}>
+          <Nav.Link style={{ color: "white" }} to={"/"} as={NavLink}>
             Home
           </Nav.Link>
-          <Nav.Link to={"/store"} as={NavLink}>
-            Store
-          </Nav.Link>
-          <Nav.Link to={"/About"} as={NavLink}>
+          <Nav.Link style={{ color: "white" }} to={"/about"} as={NavLink}>
             About
+          </Nav.Link>
+          <Nav.Link style={{ color: "white" }} to={"/store"} as={NavLink}>
+            Store
           </Nav.Link>
         </Nav>
         {cartQuantity > 0 && (
