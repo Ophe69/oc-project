@@ -2,15 +2,14 @@ import { Card, Button } from "react-bootstrap"
 import { formatCurrency } from "../utilities/formatCurrency"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 
-type SToreItemProps = {
+type StoreItemProps = {
   id: number
   name: string
   price: number
   imgUrl: string
 }
 
-export function StoreItem({ id, name, price, imgUrl }: SToreItemProps) {
-  //une fois ces 4 fonctions créées il faut les ajouter à StoreItem pour les utiliser en signalant qu'elle viennent du context
+export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
   const {
     getItemQuantity,
     increaseCartQuantity,
